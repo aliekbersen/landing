@@ -16,13 +16,15 @@ header {
     
     padding: 0 20px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     background-color: #eee;
 }
 li {
     list-style: none;
-    justify-content: flex-end;
     display: flex;
+    justify-content: flex-end;
+    
   }
 a {
     color: #000;
@@ -93,7 +95,7 @@ nav {
       word-wrap: break-word;
   }
   #hero input[type='email'] {
-    max width: 275px;
+    max-width: 275px;
     width: 100%;
     padding: 5px;
  }
